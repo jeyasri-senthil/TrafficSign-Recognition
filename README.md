@@ -20,7 +20,7 @@
 
 *Training the Model*
 
-*python train.py --img 320 --batch 16 --epochs 50 --data VOC.yaml --weights yolov5s.pt --workers 2*
+*`python train.py --img 320 --batch 16 --epochs 50 --data VOC.yaml --weights yolov5s.pt --workers 2`*
 
 *Feel free to adjust the training parameters as per your hardware and requirements.*
 
