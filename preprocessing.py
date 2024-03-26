@@ -17,7 +17,7 @@ def convert_voc_to_yolo():
             size = root.find('size')        
             w = int(size.find('width').text)
             h = int(size.find('height').text)
-
+  
             names = ['trafficlight', 'speedlimit', 'crosswalk', 'stop']
 
             for obj in root.iter('object'):
